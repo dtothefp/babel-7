@@ -1,5 +1,4 @@
-console.log('hello');
+import Main from './components/Main.js';
+import '../css/main.css';
 
-async () => {
-  await Promise.resolve();
-}
+document.body.appendChild(Main);
